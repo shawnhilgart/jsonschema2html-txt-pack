@@ -1,0 +1,146 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish', './' ]
+2 info using npm@1.3.14
+3 info using node@v0.10.22
+4 verbose publish [ './' ]
+5 verbose cache add [ './', null ]
+6 verbose cache add name=undefined spec="./" args=["./",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: './',
+7 verbose parsed url   path: './',
+7 verbose parsed url   href: './' }
+8 silly lockFile 0ee6c175- ./
+9 verbose lock ./ /Users/shawnhilgart/.npm/0ee6c175-.lock
+10 verbose tar pack [ '/var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/tmp.tgz',
+10 verbose tar pack   './' ]
+11 verbose tarball /var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/tmp.tgz
+12 verbose folder ./
+13 info prepublish jsonschema2html-txt-pack@0.1.3
+14 silly lockFile 04cb2bca-tar tar://./
+15 verbose lock tar://./ /Users/shawnhilgart/.npm/04cb2bca-tar.lock
+16 silly lockFile c568fa13-7580-0-26380563201382756-tmp-tgz tar:///var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/tmp.tgz
+17 verbose lock tar:///var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/tmp.tgz /Users/shawnhilgart/.npm/c568fa13-7580-0-26380563201382756-tmp-tgz.lock
+18 silly lockFile 04cb2bca-tar tar://./
+19 silly lockFile 04cb2bca-tar tar://./
+20 silly lockFile c568fa13-7580-0-26380563201382756-tmp-tgz tar:///var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/tmp.tgz
+21 silly lockFile c568fa13-7580-0-26380563201382756-tmp-tgz tar:///var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/tmp.tgz
+22 verbose tar unpack /var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/tmp.tgz
+23 silly lockFile afa9f033-7580-0-26380563201382756-package tar:///var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/package
+24 verbose lock tar:///var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/package /Users/shawnhilgart/.npm/afa9f033-7580-0-26380563201382756-package.lock
+25 silly lockFile c568fa13-7580-0-26380563201382756-tmp-tgz tar:///var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/tmp.tgz
+26 verbose lock tar:///var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/tmp.tgz /Users/shawnhilgart/.npm/c568fa13-7580-0-26380563201382756-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry lib/txt.pack.js
+31 silly gunzTarPerm extractEntry test/txt.pack.js
+32 silly lockFile afa9f033-7580-0-26380563201382756-package tar:///var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/package
+33 silly lockFile afa9f033-7580-0-26380563201382756-package tar:///var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/package
+34 silly lockFile c568fa13-7580-0-26380563201382756-tmp-tgz tar:///var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/tmp.tgz
+35 silly lockFile c568fa13-7580-0-26380563201382756-tmp-tgz tar:///var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/tmp.tgz
+36 verbose tar pack [ '/Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package.tgz',
+36 verbose tar pack   '/var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/package' ]
+37 verbose tarball /Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package.tgz
+38 verbose folder /var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/package
+39 silly lockFile afa9f033-7580-0-26380563201382756-package tar:///var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/package
+40 verbose lock tar:///var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/package /Users/shawnhilgart/.npm/afa9f033-7580-0-26380563201382756-package.lock
+41 silly lockFile 94576fca-2html-txt-pack-0-1-3-package-tgz tar:///Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package.tgz
+42 verbose lock tar:///Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package.tgz /Users/shawnhilgart/.npm/94576fca-2html-txt-pack-0-1-3-package-tgz.lock
+43 silly lockFile afa9f033-7580-0-26380563201382756-package tar:///var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/package
+44 silly lockFile afa9f033-7580-0-26380563201382756-package tar:///var/folders/88/9sm601gs0zb2hks9njnmctb40000gn/T/npm-5878-b-Py0FM_/1395338037580-0.26380563201382756/package
+45 silly lockFile 94576fca-2html-txt-pack-0-1-3-package-tgz tar:///Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package.tgz
+46 silly lockFile 94576fca-2html-txt-pack-0-1-3-package-tgz tar:///Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package.tgz
+47 silly lockFile 934c387d-hema2html-txt-pack-0-1-3-package /Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package
+48 verbose lock /Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package /Users/shawnhilgart/.npm/934c387d-hema2html-txt-pack-0-1-3-package.lock
+49 silly lockFile 934c387d-hema2html-txt-pack-0-1-3-package /Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package
+50 silly lockFile 934c387d-hema2html-txt-pack-0-1-3-package /Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package
+51 verbose tar unpack /Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package.tgz
+52 silly lockFile 68e3fd3e-hema2html-txt-pack-0-1-3-package tar:///Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package
+53 verbose lock tar:///Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package /Users/shawnhilgart/.npm/68e3fd3e-hema2html-txt-pack-0-1-3-package.lock
+54 silly lockFile 94576fca-2html-txt-pack-0-1-3-package-tgz tar:///Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package.tgz
+55 verbose lock tar:///Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package.tgz /Users/shawnhilgart/.npm/94576fca-2html-txt-pack-0-1-3-package-tgz.lock
+56 silly gunzTarPerm modes [ '755', '644' ]
+57 silly gunzTarPerm extractEntry package.json
+58 silly gunzTarPerm extractEntry README.md
+59 silly gunzTarPerm extractEntry lib/txt.pack.js
+60 silly gunzTarPerm extractEntry test/txt.pack.js
+61 silly lockFile 68e3fd3e-hema2html-txt-pack-0-1-3-package tar:///Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package
+62 silly lockFile 68e3fd3e-hema2html-txt-pack-0-1-3-package tar:///Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package
+63 silly lockFile 94576fca-2html-txt-pack-0-1-3-package-tgz tar:///Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package.tgz
+64 silly lockFile 94576fca-2html-txt-pack-0-1-3-package-tgz tar:///Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package.tgz
+65 verbose chmod /Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package.tgz 644
+66 verbose chown /Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package.tgz [ 501, 20 ]
+67 silly lockFile 0ee6c175- ./
+68 silly lockFile 0ee6c175- ./
+69 silly publish { name: 'jsonschema2html-txt-pack',
+69 silly publish   preferGlobal: false,
+69 silly publish   version: '0.1.3',
+69 silly publish   author: { name: 'Shawn Hilgart', email: 'shawn.hilgart@gmail.com' },
+69 silly publish   description: 'A Pack for jsonschema2html that outputs a textual representation of a forms structure.',
+69 silly publish   repository:
+69 silly publish    { type: 'git',
+69 silly publish      url: 'https://github.com/shawnhilgart/jsonschema2html-txt-pack' },
+69 silly publish   private: false,
+69 silly publish   test: 'make test',
+69 silly publish   contributors: [ { name: 'Shawn Hilgart', email: 'shawn.hilgart@gmail.com' } ],
+69 silly publish   main: './lib/txt.pack',
+69 silly publish   keywords: [],
+69 silly publish   dependencies: {},
+69 silly publish   analyze: false,
+69 silly publish   devDependencies: { mocha: '*' },
+69 silly publish   license: 'BSD-2-Clause',
+69 silly publish   engines: { node: '>=0.8' },
+69 silly publish   scripts: { test: 'mocha' },
+69 silly publish   bugs: { url: 'https://github.com/shawnhilgart/jsonschema2html-txt-pack/issues' },
+69 silly publish   homepage: 'https://github.com/shawnhilgart/jsonschema2html-txt-pack',
+69 silly publish   bundleDependencies: [],
+69 silly publish   directories: { test: 'test' },
+69 silly publish   readme: 'jsonschema2html-txt-pack\n========================\n\nA Pack for jsonschema2html that outputs a textual representation of a forms structure.\n',
+69 silly publish   readmeFilename: 'README.md',
+69 silly publish   _id: 'jsonschema2html-txt-pack@0.1.3',
+69 silly publish   dist: { shasum: '869989fce119e862010fbffde2a03ee54b759e46' },
+69 silly publish   _from: './' }
+70 verbose url raw jsonschema2html-txt-pack
+71 verbose url resolving [ 'http://registry.npmjs.org/', './jsonschema2html-txt-pack' ]
+72 verbose url resolved http://registry.npmjs.org/jsonschema2html-txt-pack
+73 info trying registry request attempt 1 at 12:53:57
+74 http PUT http://registry.npmjs.org/jsonschema2html-txt-pack
+75 http 201 http://registry.npmjs.org/jsonschema2html-txt-pack
+76 verbose url raw jsonschema2html-txt-pack
+77 verbose url resolving [ 'http://registry.npmjs.org/', './jsonschema2html-txt-pack' ]
+78 verbose url resolved http://registry.npmjs.org/jsonschema2html-txt-pack
+79 info trying registry request attempt 1 at 12:53:58
+80 http GET http://registry.npmjs.org/jsonschema2html-txt-pack
+81 http 200 http://registry.npmjs.org/jsonschema2html-txt-pack
+82 verbose uploading [ 'jsonschema2html-txt-pack/-/jsonschema2html-txt-pack-0.1.3.tgz/-rev/15-fed0fe486d42af35fa936f8ff14fc4c3',
+82 verbose uploading   '/Users/shawnhilgart/.npm/jsonschema2html-txt-pack/0.1.3/package.tgz' ]
+83 verbose url raw jsonschema2html-txt-pack/-/jsonschema2html-txt-pack-0.1.3.tgz/-rev/15-fed0fe486d42af35fa936f8ff14fc4c3
+84 verbose url resolving [ 'http://registry.npmjs.org/',
+84 verbose url resolving   './jsonschema2html-txt-pack/-/jsonschema2html-txt-pack-0.1.3.tgz/-rev/15-fed0fe486d42af35fa936f8ff14fc4c3' ]
+85 verbose url resolved http://registry.npmjs.org/jsonschema2html-txt-pack/-/jsonschema2html-txt-pack-0.1.3.tgz/-rev/15-fed0fe486d42af35fa936f8ff14fc4c3
+86 info trying registry request attempt 1 at 12:53:58
+87 http PUT http://registry.npmjs.org/jsonschema2html-txt-pack/-/jsonschema2html-txt-pack-0.1.3.tgz/-rev/15-fed0fe486d42af35fa936f8ff14fc4c3
+88 http 409 http://registry.npmjs.org/jsonschema2html-txt-pack/-/jsonschema2html-txt-pack-0.1.3.tgz/-rev/15-fed0fe486d42af35fa936f8ff14fc4c3
+89 error publish fail Cannot publish over existing version.
+89 error publish fail Update the 'version' field in package.json and try again.
+89 error publish fail
+89 error publish fail If the previous version was published in error, see:
+89 error publish fail     npm help unpublish
+89 error publish fail
+89 error publish fail To automatically increment version numbers, see:
+89 error publish fail     npm help version
+90 error System Darwin 13.1.0
+91 error command "node" "/usr/local/bin/npm" "publish" "./"
+92 error cwd /private/var/labs/jsonschema2html-txt-pack
+93 error node -v v0.10.22
+94 error npm -v 1.3.14
+95 error code EPUBLISHCONFLICT
+96 verbose exit [ 1, true ]
